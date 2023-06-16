@@ -72,6 +72,7 @@ services:
       - "4467"
     ports:
       - "44158:44158/tcp"
+       - "1680:1680/udp"
     environment:
       - FIRMWARE_VERSION=v1.0.2-33
       - FIRMWARE_SHORT_HASH=3103954
